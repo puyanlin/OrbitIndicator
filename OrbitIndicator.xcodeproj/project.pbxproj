@@ -13,6 +13,8 @@
 		3D42460C1B94A8AA00164C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D42460B1B94A8AA00164C5A /* Images.xcassets */; };
 		3D42460F1B94A8AA00164C5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42460D1B94A8AA00164C5A /* LaunchScreen.xib */; };
 		3D42461B1B94A8AA00164C5A /* OrbitIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42461A1B94A8AA00164C5A /* OrbitIndicatorTests.swift */; };
+		3D55F16D1B94B6BF00561335 /* PYOrbitIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D55F16C1B94B6BF00561335 /* PYOrbitIndicatorView.xib */; };
+		3DE441301B94BEB600DBA49A /* PYOrbitIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55F16E1B94B74300561335 /* PYOrbitIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3D4246141B94A8AA00164C5A /* OrbitIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4246191B94A8AA00164C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D42461A1B94A8AA00164C5A /* OrbitIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitIndicatorTests.swift; sourceTree = "<group>"; };
+		3D55F16C1B94B6BF00561335 /* PYOrbitIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PYOrbitIndicatorView.xib; path = ../../../../puyan/Desktop/OrbitIndicator/OrbitIndicator/OrbitIndicatorView/PYOrbitIndicatorView.xib; sourceTree = "<group>"; };
+		3D55F16E1B94B74300561335 /* PYOrbitIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PYOrbitIndicatorView.swift; path = ../../../../puyan/Desktop/OrbitIndicator/OrbitIndicator/OrbitIndicatorView/PYOrbitIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 		3D55F1631B94AD1C00561335 /* OrbitIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
+				3D55F16C1B94B6BF00561335 /* PYOrbitIndicatorView.xib */,
+				3D55F16E1B94B74300561335 /* PYOrbitIndicatorView.swift */,
 			);
 			name = OrbitIndicatorView;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			files = (
 				3D42460A1B94A8AA00164C5A /* Main.storyboard in Resources */,
 				3D42460F1B94A8AA00164C5A /* LaunchScreen.xib in Resources */,
+				3D55F16D1B94B6BF00561335 /* PYOrbitIndicatorView.xib in Resources */,
 				3D42460C1B94A8AA00164C5A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE441301B94BEB600DBA49A /* PYOrbitIndicatorView.swift in Sources */,
 				3D4246071B94A8AA00164C5A /* ViewController.swift in Sources */,
 				3D4246051B94A8AA00164C5A /* AppDelegate.swift in Sources */,
 			);

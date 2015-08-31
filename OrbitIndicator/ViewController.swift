@@ -10,18 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var imgindicator: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        UIView.animateWithDuration(10, animations: { () -> Void in
-            self.imgindicator.layer.transform = CATransform3DMakeRotation( CGFloat( 90.0/180 * M_PI ) , 0, 0, 1);
-        })
+        let orbitIndicatorView : PYOrbitIndicatorView = NSBundle.mainBundle().loadNibNamed("PYOrbitIndicatorView", owner: self, options: nil)[0] as! PYOrbitIndicatorView
+        
+        orbitIndicatorView.frame=self.view.bounds
+        self.view.addSubview(orbitIndicatorView)
+        
+        orbitIndicatorView.rotateTo(degree: 90)
         
         
     }
